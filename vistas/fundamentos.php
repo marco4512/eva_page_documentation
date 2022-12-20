@@ -9,9 +9,14 @@
         <title>Home</title>
 </head>
 <body id="vistas_body">
+<div class="BarraProgreso">
+        <div id="ProgresPage" class="Barra" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    <br>
     <!--Se crea el div principal que abarca toda la pagina-->
     <div class="contenedor_principal">
         <div class="contenedor_secundario">
+            <br>
             <p class="Titulos_responsivos"><strong>Fundamentos</strong></p>
             <div class="Separdor_de_titulos"></div>
             <div class="Separdor_de_titulos_bajo"></div>
@@ -48,12 +53,12 @@
                         <div class="contenido_texto_imagenes_Responsivo" style=" grid-template-columns: 59% 39%;">
                             <div class="contenedor_texto"> 
                                 <ul class="lista_temas">
-                                    <li><a class="tema" href="Introduccion.html">Introducción</a></li>
-                                        <dd><a class="sub_tema" href="Introduccion.html#Bienvenida">1.- Bienvenida</a></dd>
-                                        <dd><a class="sub_tema" href="Introduccion.html#queEs">2.- ¿Qué es esta Pagína?</a></dd>
-                                        <dd><a class="sub_tema" href="Introduccion.html#comofun">3.- ¿Cómo se estructura la pagína?</a></dd>
-                                        <dd><a class="sub_tema" href="Introduccion.html#panoama">4.- Panorama general y alcances esperados.</a></dd>
-                                        <dd><a class="sub_tema" href="Introduccion.html#Trabajos">5.- Trabajos previos e investigaciones que aportan al proyecto</a></dd>
+                                    <li><a class="tema" href="introduccion.php">Introducción</a></li>
+                                        <dd><a class="sub_tema" href="introduccion.php">1.- Bienvenida</a></dd>
+                                        <dd><a class="sub_tema" href="introduccion.php#queEs">2.- ¿Qué es esta Pagína?</a></dd>
+                                        <dd><a class="sub_tema" href="introduccion.php#comofun">3.- ¿Cómo se estructura la pagína?</a></dd>
+                                        <dd><a class="sub_tema" href="introduccion.php#panoama">4.- Panorama general y alcances esperados.</a></dd>
+                                        <dd><a class="sub_tema" href="introduccion.php#Trabajos">5.- Trabajos previos e investigaciones que aportan al proyecto</a></dd>
                                 </ul>
                             </div>
                             <div class="contenedor_imagen" >
@@ -73,16 +78,16 @@
                     <div class="contenido_texto_imagenes_Responsivo" style=" grid-template-columns: 59% 39%;">
                         <div class="contenedor_texto"> 
                             <ol class="lista_temas">
-                                <li><a class="tema" href="Estadodelarte.html">Estado del arte de los chatbots en 2022</a></li>
-                                <dd><a class="sub_tema" href="Estadodelarte.html#Estado_del_arte">1.- ¿Qué es un chatbot?</a></dd>
-                                <dd><a class="sub_tema" href="Estadodelarte.html#tipos_de_chats">2.- Tipos de chatbots</a></dd>
-                                <dd><a class="sub_tema" href="Estadodelarte.html#como_funcionan">3.- ¿Cómo funciona un chatbot?</a></dd>
-                                <dd><a class="sub_tema" href="Estadodelarte.html#características">4.- Características de los chatbots</a></dd>
-                                <dd><a class="sub_tema" href="Estadodelarte.html#tipo_de_plataformas">5.- Plataformas que ayudan con la creación de bots</a></dd>
-                                <dd><a class="sub_tema" href="Estadodelarte.html#Uso_de_los_chatboots">6.- Uso de los chatbots</a></dd>
-                                <dd><a class="sub_tema" href="Estadodelarte.html#limitaciones_de_los_chat_boots">7.- Limitaciones de los chatbots no code</a></dd>
-                                <dd><a class="sub_tema" href="Estadodelarte.html#ejemplos_de_chatboots">8.- Ejemplos del uso de chatbots</a></dd>
-                                <dd><a class="sub_tema" href="Estadodelarte.html#resuelve_el_problema">9.- ¿Es un chatbot una solución a mi problema?</a></dd>
+                                <li><a class="tema" href="estado_del_arte.php">Estado del arte de los chatbots en 2022</a></li>
+                                <dd><a class="sub_tema" href="estado_del_arte.php#Estado_del_arte">1.- ¿Qué es un chatbot?</a></dd>
+                                <dd><a class="sub_tema" href="estado_del_arte.php#tipos_de_chats">2.- Tipos de chatbots</a></dd>
+                                <dd><a class="sub_tema" href="estado_del_arte.php#como_funcionan">3.- ¿Cómo funciona un chatbot?</a></dd>
+                                <dd><a class="sub_tema" href="estado_del_arte.php#características">4.- Características de los chatbots</a></dd>
+                                <dd><a class="sub_tema" href="estado_del_arte.php#tipo_de_plataformas">5.- Plataformas que ayudan con la creación de bots</a></dd>
+                                <dd><a class="sub_tema" href="estado_del_arte.php#Uso_de_los_chatboots">6.- Uso de los chatbots</a></dd>
+                                <dd><a class="sub_tema" href="estado_del_arte.php#limitaciones_de_los_chat_boots">7.- Limitaciones de los chatbots no code</a></dd>
+                                <dd><a class="sub_tema" href="estado_del_arte.php#ejemplos_de_chatboots">8.- Ejemplos del uso de chatbots</a></dd>
+                                <dd><a class="sub_tema" href="estado_del_arte.php#resuelve_el_problema">9.- ¿Es un chatbot una solución a mi problema?</a></dd>
                             </ol>
                         </div>
                         <div class="contenedor_imagen" >

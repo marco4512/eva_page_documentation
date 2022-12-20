@@ -43,9 +43,12 @@
                 </div>
             </div>
         </div>
+        <hr>
         <div class="progreso_de_cada_parte">
-            <p>Tu progreso: 0%</p>
-            <div id="Progreso_fundamentos" class="Barra" style="width: 0%;" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+            <p>
+            En esta sección están todas las partes que constituyen los fundamentos de DialogFlow para que así conozcas todo de esta herramienta.</p>
+            <div id="Progreso_fundamentos"  class="Barra" style="width: 100%;height: 10px;border-radius:10px; margin:0 auto;" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+            <p >25%</p>
         </div>
         <br>
     </div>

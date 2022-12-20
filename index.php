@@ -19,10 +19,10 @@
             </div>
             <div class="menu">
                 <ul>
-                    <li class="opciones_menu"><a class="texto_opciones_menu" id="todas_las_pag" href="#todas_las_partes" onclick="cargar_pagina('vistas/all_paths.php')">Todas las partes |</a></li>
+                    <li class="opciones_menu"><a class="texto_opciones_menu" id="todas_las_pag" href="#" onclick="cargar_pagina('vistas/all_paths.php')">Todas las partes |</a></li>
                     <li class="opciones_menu"><a class="texto_opciones_menu" href="#" onclick="cargar_pagina('vistas/fundamentos.php')">Login |</a></li>
-                    <li class="opciones_menu"><a class="texto_opciones_menu" href="">Registrate |</a></li>
-                    <li class="opciones_menu"><a class="texto_opciones_menu" href="">Foro |</a></li>
+                    <li class="opciones_menu"><a class="texto_opciones_menu" href="#">Registrate |</a></li>
+                    <li class="opciones_menu"><a class="texto_opciones_menu" href="#">Foro |</a></li>
                 </ul>
             </div>
         </div>
@@ -44,11 +44,11 @@
             <a id="introduccion_click" onclick="despliega('introduccion')"><strong>Introduccion</strong></a>
                 <div id="sub_menu_intro">
                     <ol>
-                        <li><a onclick="cargar_pagina('vistas/fundamentos.php')" href="#" >Bienvenida </a></li>
-                        <li><a onclick="cerrar()" href="Introduccion.html#queEs">¿Qué es este documento? </a></li>
-                        <li><a onclick="cerrar()" href="Introduccion.html#comofun">¿Cómo se estructura el documento? </a></li>
-                        <li><a onclick="cerrar()" href="Introduccion.html#panoama">Panorama general y alcances esperados. </a></li>
-                        <li><a onclick="cerrar()" href="Introduccion.html#Trabajos">Trabajos previos e investigaciones que aportan al proyecto </a> </li>
+                        <li><a onclick="cargar_pagina('vistas/introduccion.php')" href="#" >Bienvenida </a></li>
+                        <li><a onclick="cargar_pagina('vistas/introduccion.php#queEs')" href="#">¿Qué es este documento? </a></li>
+                        <li><a onclick="cargar_pagina('vistas/introduccion.php#comofun')" href="#">¿Cómo se estructura el documento? </a></li>
+                        <li><a onclick="cargar_pagina('vistas/introduccion.php#panoama')" href="#">Panorama general y alcances esperados. </a></li>
+                        <li><a onclick="cargar_pagina('vistas/introduccion.php#Trabajos')" href="#">Trabajos previos e investigaciones que aportan al proyecto </a> </li>
                     </ol>
                 </div>
             </li>
@@ -56,15 +56,15 @@
                 <a id="Estado_click" onclick="despliega('estado')"><strong>Estado del arte de los chatbots en 2022</strong></a>
                     <div id="sub_menu_intro_2">
                         <ol>
-                            <li><a onclick="cerrar()" href="Estadodelarte.html#Estado_del_arte" >¿Qué es un chatbot?  </a></li>
-                            <li><a onclick="cerrar()" href="Estadodelarte.html#tipos_de_chats">Tipos de chatbots </a></li>
-                            <li><a onclick="cerrar()" href="Estadodelarte.html#como_funcionan">¿Cómo funciona un chatbot?</a></li>
-                            <li><a onclick="cerrar()" href="Estadodelarte.html#características">Características de los chatbots</a></li>
-                            <li><a onclick="cerrar()" href="Estadodelarte.html#tipo_de_plataformas">Plataformas que ayudan con la creación de bots </a> </li>
-                            <li><a onclick="cerrar()" href="Estadodelarte.html#Uso_de_los_chatboots">Uso de los chatbots</a></li>
-                            <li><a onclick="cerrar()" href="Estadodelarte.html#limitaciones_de_los_chat_boots">Limitaciones de los chatbots no code</a></li>
-                            <li><a onclick="cerrar()" href="Estadodelarte.html#ejemplos_de_chatboots">Ejemplos del uso de chatbots</a></li>
-                            <li><a onclick="cerrar()" href="Estadodelarte.html#resuelve_el_problema">¿Es un chatbot una solución a mi problema? </a></li>
+                            <li><a onclick="cargar_pagina('vistas/estado_del_arte.php#Estado_del_arte')" href="#" >¿Qué es un chatbot?  </a></li>
+                            <li><a onclick="cargar_pagina('vistas/estado_del_arte.php#tipos_de_chats')" href="#">Tipos de chatbots </a></li>
+                            <li><a onclick="cargar_pagina('vistas/estado_del_arte.php#como_funcionan')" href="#">¿Cómo funciona un chatbot?</a></li>
+                            <li><a onclick="cargar_pagina('vistas/estado_del_arte.php#características')" href="#">Características de los chatbots</a></li>
+                            <li><a onclick="cargar_pagina('vistas/estado_del_arte.php#tipo_de_plataformas')" href="#">Plataformas que ayudan con la creación de bots </a> </li>
+                            <li><a onclick="cargar_pagina('vistas/estado_del_arte.php#Uso_de_los_chatboots')" href="#">Uso de los chatbots</a></li>
+                            <li><a onclick="cargar_pagina('vistas/estado_del_arte.php#limitaciones_de_los_chat_boots')" href="#">Limitaciones de los chatbots no code</a></li>
+                            <li><a onclick="cargar_pagina('vistas/estado_del_arte.php#ejemplos_de_chatboots')" href="#">Ejemplos del uso de chatbots</a></li>
+                            <li><a onclick="cargar_pagina('vistas/estado_del_arte.php#resuelve_el_problema')" href="#">¿Es un chatbot una solución a mi problema? </a></li>
                         </ol>
                     </div>
                 </li>
@@ -90,7 +90,7 @@
     </div>
     <script src="js/mostrar_menu_lateral.js"></script>
     <script>
-        var height = screen.height - 150 + 'px';
+        var height = screen.height - 210 + 'px';
         var vistas = document.getElementById('vistas');
         var vista_frame = document.getElementById('vista_frame');
         vista_frame.style.height = height;

@@ -101,58 +101,203 @@
                 </div>
             </div>
             <div class="contenido_texto_imagenes_Responsivo" style=" grid-template-columns: 59% 39%;">
-               
+
                 <div class="contenedor_texto">
                     <p style="color: #7a1a8d;margin:0 auto;text-align: center;"><strong>Elementos de una intención:</strong></p>
                     <hr>
                     <p>
-                        <strong style="color: #7a1a8d;">Frases: </strong>Estas <strong>son palabras o frases que servirán de entrenamiento para  nuestro bot.</strong>Estas están planteadas para resolver inquietudes o posibles entradas de los usuarios y con las que se resolverá o buscará las coincidencias con nuestras intenciones adecuadas.
+                        <strong style="color: #7a1a8d;">Frases: </strong>Estas <strong>son palabras o frases que servirán de entrenamiento para nuestro bot.</strong>Estas están planteadas para resolver inquietudes o posibles entradas de los usuarios y con las que se resolverá o buscará las coincidencias con nuestras intenciones adecuadas.
                     </p>
                     <p>
                         <strong style="color: #7a1a8d;">Acción: </strong>Esto será lo que Dialog Flow realizará una vez que <strong>las coincidencias de una formulación </strong> del usuario con la intención sea registrada.
-                    </p> 
+                    </p>
                     <p>
                         <strong style="color: #7a1a8d;">Parámetros: </strong>Estos son valores que Dialog Flow extrae de <strong>la expresión del interlocutor.</strong> Gracias a estos datos estructurados, la consola de esta plataforma podrá iniciar acciones lógicas y generar respuestas. Cuando se inicia el entrenamiento en Dialog Flow se necesitará configurar los parámetros para obtener buenos datos.
-                    </p> 
+                    </p>
                     <p>
                         <strong style="color: #7a1a8d;">Respuestas: </strong>Como su propio nombre indica, esto será aquello que la plataforma <strong>devolverá al usuario final</strong> una vez procesado todo lo anterior.
-                    </p> 
-                    </div>
+                    </p>
+                </div>
                 <div class="contenedor_imagen">
                     <object data="../img/undraw_throw_down_ub-2-l.svg"></object>
                 </div>
             </div>
             <div class="contenido_texto_imagenes_Responsivo">
-               <div class="contenedor_texto">
-                   <p style="color: #7a1a8d;margin:0 auto;text-align: center;"><strong>¿Cómo crear un Intent?</strong></p>
-                   <hr>
-                   <p>
-                    Para crear un intent, se tienen que seguir los siguientes pasos:
-                   </p>
-                   <p>
-                    1.- En el menú de la barra lateral izquierda, haz clic en el botón <strong>Agregar +</strong> que aparece junto a intents.
-                   </p> 
-                   <p>
-                    2.- Ingresa el nombre para el intent.El nombre de tu intent debe representar las expresiones de usuario final que reconoce.
-                   </p> 
-                   <p>
-                    3.- Haz clic en guardar.
-                   </p> 
+                <div class="contenedor_texto">
+                    <p style="color: #7a1a8d;margin:0 auto;text-align: center;"><strong>¿Cómo crear un Intent?</strong></p>
+                    <hr>
+                    <p>
+                        Para crear un intent, se tienen que seguir los siguientes pasos:
+                    </p>
+                    <p>
+                        1.- En el menú de la barra lateral izquierda, haz clic en el botón <strong>Agregar +</strong> que aparece junto a intents.
+                    </p>
+                    <p>
+                        2.- Ingresa el nombre para el intent.El nombre de tu intent debe representar las expresiones de usuario final que reconoce.
+                    </p>
+                    <p>
+                        3.- Haz clic en guardar.
+                    </p>
                 </div>
+            </div>
+            <div class="contenido_texto_imagenes_Responsivo" style=" grid-template-columns: 59% 39%;">
+                <div class="contenedor_texto">
+                    <p style="color: #7a1a8d;margin:0 auto;text-align: center;"><strong>Entidades:</strong></p>
+                    <hr>
+                    <p>
+                        Las entidades son las herramientas por las cuales esta plataforma identifica y extrae datos útiles de las entradas de lenguaje natural.Se utilizan para elegir información específica que mencionan los usuarios. En palabras más simples, una entidad es un concepto o una palabra clave al que se le puede asignar un valor de manera tal que se pueda emparejar con una intención, estas suelen coincidir mucho con cosas como las categorías, ubicaciones, fechas, cantidades, etc…
+                    </p>
+                </div>
+                <div class="contenedor_imagen">
+                    <object data="../img/undraw_elements_re_25t9.svg"></object>
+                </div>
+            </div>
+            <div class="contenido_texto_imagenes_Responsivo" style=" grid-template-columns: 39% 59%;">
+                
+                <div class="contenedor_imagen">
+                    <object data="../img/undraw_creative_team_re_85gn.svg"></object>
+                </div>
+
+
+
+                <div class="contenedor_texto">
+                    <p style="color: #7a1a8d;margin:0 auto;text-align: center;"><strong>Tipos de entidades:</strong></p>
+                    <hr>
+                    <p>
+                        <strong style="color: #7a1a8d;">Entidades por defecto: </strong>Estas son las formas más simples que el mismo sistema de Dialog Flow te brinda por defecto y que dependiendo del idioma, este mismo te lo puede detectar como coincidencia. 
+                    </p>
+                    <p>
+                        <strong style="color: #7a1a8d;">Entidades personalizadas: </strong>Como su nombre lo dice, no estás limitado solo a tener las entidades que el sistema te brinda,al contrario puedes crear tus propias coincidencias adecuandolo más a tus necesidades.
+                    </p>
+                </div>
+            </div>
+            <div class="contenido_texto_imagenes_Responsivo">
+                <div class="contenedor_texto">
+                    <p>
+                    Es aquí donde cada entidad del sistema necesita una o varias entradas para poder funcionar, estas entradas son <strong>frases o palabras,</strong> de las cuales ya hablamos anteriormente.
+                    </p>
+                </div>
+            </div>
+            <div class="contenido_texto_imagenes_Responsivo" style=" grid-template-columns: 39% 59%;">
+                <div class="contenedor_imagen">
+                    <object data="../img/undraw_creative_process_re_4ylm.svg"></object>
+                </div>
+                <div class="contenedor_texto">
+                    <p style="color: #7a1a8d;margin:0 auto;text-align: center;"><strong>Opciones de entidades:</strong></p>
+                    <hr>
+                    <p>Estas opciones están enfocadas en las entidades personalizadas de esta plataforma</p>
+                    <p>
+                        <strong style="color: #7a1a8d;">Entidades de mapa: </strong>Lo que este tipo de entidad realiza es un mapeo de elementos, en palabras más técnicas, esta entidad puede ser como un arreglo con elementos. <strong>Veamos un ejemplo:</strong> Si necesitamos identificar la referencia “M” de la entidad talla se puede asignar varios sinónimos de esta como: mediano,regular,normal. De manera que si el usuario ingresa alguno de estos la consola podrá reconocerlo fácilmente. Gracias a esta opción, se puede simplificar el entrenamiento de nuestra intención ya que solo tendrás que crear un listado de sinónimos y elaborar combinaciones sintácticas para que las interpretaciones sean lo más acertadas posibles. <a href="https://cloud.google.com/dialogflow/es/docs/entities-options?hl=es-419#map" target="_blanck">ver su construcción</a>
+                    </p>
+                </div>
+            </div>
+            <div class="contenido_texto_imagenes_Responsivo" style=" grid-template-columns: 59% 39%;">
+               
+                <div class="contenedor_texto">
+                    <p>
+                        <strong style="color: #7a1a8d;">Entidades de lista: </strong>Estas entidades proporcionan un inventario de las entidades de <strong>valor único</strong>, lo que quiere decir que trabaja sobre aquellas que no tienen sinónimos ni valores de referencia.Por ejemplo, para identificar un color.
+
+                    </p>
+                </div>
+                <div class="contenedor_imagen">
+                    <object data="../img/undraw_note_list_re_r4u9.svg"></object>
+                </div>
+            </div>
+            <div class="contenido_texto_imagenes_Responsivo" style=" grid-template-columns: 39% 59%;">
+               
+               <div  id="imagen_a_ocultar" class="contenedor_imagen">
+                   <object data="../img/undraw_abstract_re_l9xy.svg"></object>
+               </div>
+               <div class="contenedor_texto">
+                   <p>
+                       <strong style="color: #7a1a8d;">Entidad compuesta: </strong>Muchas veces estas entidades pueden hacer referencia a más de un valor, ya que se pueden identificar como alias.De esta forma, cuando una entidad de lista contiene alias de otro tipo de entidades, recibe el nombre de entidad compuesta. <strong>Por ejemplo:</strong> si se coloca la entidad  @sys.unit-curreny se estará haciendo referencia la cantidad de dinero y nombre de la moneda. 
+                </p>
+               </div>
            </div>
            <div class="contenido_texto_imagenes_Responsivo" style=" grid-template-columns: 59% 39%;">
                <div class="contenedor_texto">
-                   <p style="color: #7a1a8d;margin:0 auto;text-align: center;"><strong>Entidades:</strong></p>
-                   <hr>
                    <p>
-                   Las entidades son  las herramientas por las cuales esta plataforma identifica y extrae datos útiles de las entradas de lenguaje natural.Se utilizan para elegir información específica que mencionan los usuarios. En palabras más simples, una entidad es un concepto o una palabra clave al que se le puede asignar un valor de manera tal que se pueda emparejar con una intención, estas suelen coincidir mucho con cosas como las categorías, ubicaciones, fechas, cantidades, etc…
-                   </p>
-                   </div>
-               <div class="contenedor_imagen">
-                   <object data="../img/undraw_elements_re_25t9.svg"></object>
+                       <strong style="color: #7a1a8d;">Entidad de expresión regular: </strong>Hay ocasiones en las que es difícil anticiparse a la respuesta de un usuario o a los términos de una entidad.Por ello, la consola permite crear entidades que detectan patrones. De esta forma Dialog Flow puede identificar por ejemplo que un conjunto de 4 números y 3 letras es una matrícula.
+                    </p>
+               </div>
+               <div  id="imagen_a_ocultar" class="contenedor_imagen">
+                   <object data="../img/undraw_file_analysis_8k9b.svg"></object>
                </div>
            </div>
-            <br>           
+           <div class="contenido_texto_imagenes_Responsivo" style=" grid-template-columns: 39% 59%;">
+                <div class="contenedor_imagen">
+                    <object data="../img/undraw_site_content_re_4ctl.svg"></object>
+                </div>
+                <div class="contenedor_texto">
+                    <p style="color: #7a1a8d;margin:0 auto;text-align: center;"><strong>Funciones de las entidades:</strong></p>
+                    <hr>
+                    <p>En Dialog Flow se permiten dos funciones en relación a las entidades.</p>
+                    <p>
+                        <strong style="color: #7a1a8d;">Expansión: </strong>Esta es una función automática que puede reconocer valores que no se especifican de forma explícita.Por ejemplo, para una lista de animales, cada elemento será un valor de referencia de forma que si un usuario utiliza la expresión “que es un gato” se asigna “gato” a este tipo de entidad.Aunque no se se asigne explícitamente las funciones automáticas lo hacen. Es por ello que es importante dar muchos ejemplos al boot para poder hacer que su entrenamiento sea más factible. </p>
+                </div>
+            </div>
+            <div class="contenido_texto_imagenes_Responsivo" style=" grid-template-columns: 59% 39%;">
+                <div class="contenedor_texto">
+                    <p><strong style="color: #7a1a8d;">Coincidencia: </strong>Esta es una función que nos da coincidencias conforme  a  las entradas y entidades de manera automática. Sin embargo, cuando existen sinónimos o valores de varias palabras pueden aparecer fallos. Esta función permite que el orden de las palabras en un valor o sinónimo no sea importante, sin necesidad de haber definido previamente un valor de entrada para cada una de las variaciones posibles. Estas funciones tiene algunas limitaciones como lo pueden ser:
+                    </p>
+                    <p>° No puede habilitarse para entidades de expresión regular</p>
+                    <p>° No es recomendable en entidades que se usan para coincidir valores escritos como números de identificación.</p>
+                </div>
+                <div class="contenedor_imagen">
+                    <object data="../img/undraw_settings_tab_mgiw.svg"></object>
+                </div>
+            </div>
+            <div class="contenido_texto_imagenes_Responsivo">
+                <div class="contenedor_texto">
+                    <p style="color: #7a1a8d;margin:0 auto;text-align: center;"><strong>¿Cómo crear una entidad?</strong></p>
+                    <hr>
+                    <p>Existen varias opciones para configurar tus entidades, aquí tienes los pasos para ver estas opciones:</p>
+                    <p>1.- Ve a la consola de <a href="https://dialogflow.cloud.google.com/?hl=es-419" target="_blanck"> Dialog Flow Es </a></p>
+                    <p>2.- Selecciona un agente</p>
+                    <p>3.- Selecciona Entidades en el menú de la barra lateral izquierda.</p>
+                    <p>4.- Selecciona la pestaña Personalizadas si quieres ver estas entidades, que se definieron para el agente.</p>
+                    <p>5.- Consulta las siguientes opciones de casilla de verificación	 para cualquier entidad existente:</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;a)Define sinónimos</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;b)Entidad de expresión regular</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;c)Permitir la expansión automática</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;d)Concordancia parcial</p>    
+                </div>
+            </div>
+            <div class="contenido_texto_imagenes_Responsivo" style=" grid-template-columns: 39% 59%;">
+                <div class="contenedor_imagen">
+                    <object data="../img/Captura desde 2022-12-19 22-06-27.png"></object>
+                    <p>figura 1 extraída de(<a href="https://cloud.google.com/dialogflow/es/docs/contexts-overview?hl=es-419" target="_blanck">Dialog flow documentation</a>)</p>
+                </div>
+                <div class="contenedor_texto">
+                    <p style="color: #7a1a8d;margin:0 auto;text-align: center;"><strong>Contextos</strong></p>
+                    <hr>
+                    <p>Los contextos en esta plataforma son muy similares al contexto que se obtiene del lenguaje natural. Si una persona le dice “es de color naranja”, necesita tener un contexto para saber que cosa es de ese color. Del mismo modo, para que Dialog Flow maneje una expresión de usuario final como esa,debe proporcionarse un contexto con el fin de que coincida de forma correcta en una intención.Mientras los contextos, puedes controlar el flujo de una conversacion.Si quieres configurar contexto para una intención, debes de establecer contextos de salida y de entrada, que se identifican mediante nombres de strings. Cuando este coincide con la intención, se activan los contextos de salida configurados para esa intención. Mientras existan los contextos activos , es más probable que tus intenciones coinciden con las entradas que corresponden a tu contexto. Una forma de verlo es como se muestra en la figura 1. </p>
+                </div>
+            </div>
+            <div class="contenido_texto_imagenes_Responsivo" style=" grid-template-columns: 59% 39%;">
+                <div class="contenedor_texto">
+                    <p style="color: #7a1a8d;margin:0 auto;text-align: center;"><strong>Tipos de contextos</strong></p>
+                    <hr>
+                    <p>Estos contextos se le aplican a las intenciones para que así en conjunto con estas se pueda controlar el flujo de la conversación con estos dos tipos:</p>
+                    <p><strong style="color: #7a1a8d;">Contextos de salida: </strong>Estos contextos controlan los contextos activos.Cuando se detecta una coincidencia con una intención, se activan los contextos de salida configurados para esa intención.  Se pueden aplicar varios contextos de salida a una intención.Cuando se detecta una coincidencia en una incidencia con un contexto de salida, se pueden usar los valores de los parámetros recopilados temporalmente haciendo referencia a los parámetros para los contextos activos. pudiendo acceder a este mientras el contexto esté activo.</p>
+                </div>
+                <div class="contenedor_imagen">
+                    <object data="../img/undraw_result_re_uj08.svg"></object>
+                </div>
+            </div>
+            <div class="contenido_texto_imagenes_Responsivo" style=" grid-template-columns: 49% 49%;">
+           
+            <div class="contenedor_imagen">
+                    <object data="../img/undraw_product_iteration_kjok.svg"></object>
+                </div>
+                <div class="contenedor_texto">
+                  <p><strong style="color: #7a1a8d;">Vida útil del contexto: </strong>todos los contextos tienen una vida útil que define la cantidad de turnos de conversación durante los que el contexto permanecerá activo. La vida predeterminada es de cinco turnos de conversación para las intenciones normales y de dos turnos de conversación para las intenciones de seguimiento. Puedes anular la duración de cualquier contexto ya que lo máximo  que estas pueden duran son 20 minutos. </p>
+                </div>
+
+                
+            </div>
+            <br>
+            
         </div>
     </div>
     <br>

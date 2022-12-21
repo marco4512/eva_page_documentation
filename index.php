@@ -68,6 +68,24 @@
                         </ol>
                     </div>
                 </li>
+                <li>
+                <a id="Estado_click" onclick="despliega('estado')"><strong>Todo sobre Dialog flow</strong></a>
+                    <div id="sub_menu_intro_2">
+                        <ol>
+                            <li><a  href="#" >¿Qué es diálogo flow?</a></li>
+                            <li><a  href="#">¿De dónde surge?</a></li>
+                            <li><a  href="#">¿Cómo está conformado Dialog Flow?</a></li>
+                            <li><a  href="#">Intenciones</a></li>
+                            <li><a  href="#">Entidades</a></li>
+                            <li><a  href="#">Contextos</a></li>
+                            <li><a  href="#">Agentes</a></li>
+                            <li><a  href="#">Fulfilment</a></li>
+                            <li><a  href="#">Respuesta de webhook</a></li>
+                            <li><a  href="#">Integraciones</a></li>
+                            <li><a  href="#">Prácticas recomendadas</a></li>
+                        </ol>
+                    </div>
+                </li>
             
         </ul>
 

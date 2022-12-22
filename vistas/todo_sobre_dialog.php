@@ -23,6 +23,7 @@
             <p class="Titulos_responsivos"><strong>Todo sobre Dialog flow</strong></p>
             <div class="Separdor_de_titulos"></div>
             <div class="Separdor_de_titulos_bajo"></div>
+            <a name="¿que_es_dialog?"></a>
             <!--que es Dialogflow-->
             <div class="sub_texto_tema">
                 <p>¿Qué es diálogo flow?</p>
@@ -39,6 +40,7 @@
                         Esta herramienta destaca entre otras plataformas que ayudan con la creación de chatbots porque ofrece un amplio abanico de interfaces de conversación,desde <a target="_blank" href="https://play.google.com/store/apps/details?id=com.google.android.apps.chromecast.app&hl=es_MX&gl=US&pli=1">Google home</a> a teléfonos o <a href="https://www.iberdrola.com/innovacion/tecnologia-wearable" target="_blanck">wearables</a>. Además de soportar más de 14 idiomas y comprender cada vez mejor las fallas de ortografía a la par que el uso de abrebiaturas.
                     </p>
                 </div>
+                <a name="donde_surge?"></a>
             </div>
             <div class="sub_texto_tema">
                 <hr>
@@ -55,6 +57,7 @@
                 <div class="contenedor_imagen">
                     <object data="../img/undraw_real_time_analytics_re_yliv.svg"></object>
                 </div>
+                <a name="como_esta_conformado?"></a>
             </div>
             <div class="sub_texto_tema">
                 <hr>
@@ -68,7 +71,7 @@
                     </p>
                 </div>
             </div>
-
+            <a name="intenciones"></a>
             <div class="contenido_texto_imagenes_Responsivo" style=" grid-template-columns: 59% 39%;">
                 <div class="contenedor_texto">
                     <p style="color: #7a1a8d;margin:0 auto;text-align: center;"><strong>Intenciones</strong></p>
@@ -140,6 +143,7 @@
                     </p>
                 </div>
             </div>
+            <a name="entidades"></a>
             <div class="contenido_texto_imagenes_Responsivo" style=" grid-template-columns: 59% 39%;">
                 <div class="contenedor_texto">
                     <p style="color: #7a1a8d;margin:0 auto;text-align: center;"><strong>Entidades:</strong></p>
@@ -264,11 +268,13 @@
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;d)Concordancia parcial</p>
                 </div>
             </div>
+            <a name="contextos"></a>
             <div class="contenido_texto_imagenes_Responsivo" style=" grid-template-columns: 39% 59%;">
                 <div class="contenedor_imagen">
                     <object data="../img/Captura desde 2022-12-19 22-06-27.png"></object>
                     <p>figura 1 extraída de(<a href="https://cloud.google.com/dialogflow/es/docs/contexts-overview?hl=es-419" target="_blanck">Dialog flow documentation</a>)</p>
                 </div>
+              
                 <div class="contenedor_texto">
                     <p style="color: #7a1a8d;margin:0 auto;text-align: center;"><strong>Contextos</strong></p>
                     <hr>
@@ -382,6 +388,7 @@
                     <p style="text-align: right;">Tabla 2 extraída de(<a href="https://cloud.google.com/dialogflow/es/docs/contexts-manage?hl=es-419" target="_blanck">Dialog flow documentation</a>)</p>
                 </div>
             </div>
+            <a name="agentes"></a>
             <div class="contenido_texto_imagenes_Responsivo" style=" grid-template-columns: 39% 59%;">
                 <div class="contenedor_imagen">
                     <object style="width: 70%;" data="../img/undraw_add_user_re_5oib.svg"></object>
@@ -720,6 +727,7 @@
                     <object style="width: 100%;" data="../img/undraw_learning_sketching_nd4f.svg"></object>
                 </div>
             </div>
+            <a  name="Fulfilment"></a>
             <div class="contenido_texto_imagenes_Responsivo">
                 <div class="contenedor_texto">
                     <p style="color: #7a1a8d;margin:0 auto;text-align: center;"><strong>Fulfilment</strong></p>
@@ -817,6 +825,7 @@
                     <li>Debe responder a las solicitudes Webhook Request con un cuerpo JSON <a href="https://cloud.google.com/dialogflow/es/docs/fulfillment-webhook?hl=es-419#webhook_response" target="_blanck">Webhook Response.</a></li>
                 </div>
             </div>
+            <a name="Respuesta_de_webhook"></a>
             <div class="contenido_texto_imagenes_Responsivo" style=" grid-template-columns: 59% 39%;"> 
             <div class="contenedor_texto">
                     <p style="color: #7a1a8d;margin:0 auto;text-align: center;"><strong>Respuesta de webhook</strong></p>
@@ -903,6 +912,7 @@
                     <p>Para saber más sobre esto puedes consultar <a href="https://cloud.google.com/dialogflow/es/docs/fulfillment-mtls?hl=es-419" target="_blanck">la página oficial de DialogFlow.</a></p>
                 </div>     
             </div>
+            <a name="Integraciones"></a>
             <div class="contenido_texto_imagenes_Responsivo"> 
                 <div class="contenedor_texto">
                     <p style="color: #7a1a8d;margin:0 auto;text-align: center;"><strong>Integraciones</strong></p>
@@ -979,6 +989,7 @@
                     </p>
                 </div>
             </div>
+            <a name="Prácticas_recomendadas"></a>
             <div class="contenido_texto_imagenes_Responsivo"> 
                 <div class="contenedor_texto">
                     <p style="color: #7a1a8d;margin:0 auto;text-align: center;"><strong>Prácticas recomendadas</strong></p>

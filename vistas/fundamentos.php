@@ -110,20 +110,18 @@
                     <div class="contenido_texto_imagenes_Responsivo" style=" grid-template-columns: 59% 39%;">
                         <div class="contenedor_texto"> 
                             <ol class="lista_temas">
-                                <li><a class="tema" href="Estadodelarte.html">Todo sobre Dialog flow</a></li>
-                                <dd><a class="sub_tema" href="Estadodelarte.html#Estado_del_arte">1.- ¿Qué es diálogo flow?</a></dd>
-                                <dd><a class="sub_tema" href="Estadodelarte.html#tipos_de_chats">2.- ¿De dónde surge?</a></dd>
-                                <dd><a class="sub_tema" href="Estadodelarte.html#como_funcionan">3.- ¿Cómo está conformado Dialog Flow?</a></dd>
-                                <dd><a class="sub_tema" href="Estadodelarte.html#características">4.- Intenciones</a></dd>
-                                <dd><a class="sub_tema" href="Estadodelarte.html#tipo_de_plataformas">5.- Entidades</a></dd>
-                                <dd><a class="sub_tema" href="Estadodelarte.html#Uso_de_los_chatboots">6.- Contextos</a></dd>
-                                <dd><a class="sub_tema" href="Estadodelarte.html#limitaciones_de_los_chat_boots">7.- Agentes</a></dd>
-                                <dd><a class="sub_tema" href="Estadodelarte.html#ejemplos_de_chatboots">8.- Fulfilment</a></dd>
-                                <dd><a class="sub_tema" href="Estadodelarte.html#resuelve_el_problema">9.- Respuesta de webhook</a></dd>
-                                <dd><a class="sub_tema" href="Estadodelarte.html#resuelve_el_problema">10.- Integraciones</a></dd>
-                                <dd><a class="sub_tema" href="Estadodelarte.html#resuelve_el_problema">11.- Prácticas recomendadas</a></dd>
-                                <dd><a class="sub_tema" href="Estadodelarte.html#resuelve_el_problema">12.- Historial y registro</a></dd>
-                                <dd><a class="sub_tema" href="Estadodelarte.html#resuelve_el_problema">13.- Calidad del agente</a></dd>
+                                        <li><a class="tema" href="todo_sobre_dialog.php">Todo sobre Dialog flow</a></li>
+                                        <dd><a class="sub_tema" href="todo_sobre_dialog.php#¿que_es_dialog?" >1.- ¿Qué es diálogo flow?</a></dd>
+                                        <dd><a class="sub_tema" href="todo_sobre_dialog.php#donde_surge?" >2.- ¿De dónde surge?</a></dd>
+                                        <dd><a class="sub_tema" href="todo_sobre_dialog.php#como_esta_conformado?" >3.- ¿Cómo está conformado Dialog Flow?</a></dd>
+                                        <dd><a class="sub_tema" href="todo_sobre_dialog.php#intenciones" >4.- Intenciones</a></dd>
+                                        <dd><a class="sub_tema" href="todo_sobre_dialog.php#entidades" >5.- Entidades</a> </dd>
+                                        <dd><a class="sub_tema" href="todo_sobre_dialog.php#contextos" >6.- Contextos</a></dd>
+                                        <dd><a class="sub_tema" href="todo_sobre_dialog.php#agentes" >7.- Agentes</a></dd>
+                                        <dd><a class="sub_tema" href="todo_sobre_dialog.php#Fulfilment">8.- Fulfilment</a></dd>
+                                        <dd><a class="sub_tema" href="todo_sobre_dialog.php#Respuesta_de_webhook">9.- Respuesta de webhook</a></dd>
+                                        <dd><a class="sub_tema" href="todo_sobre_dialog.php#Integraciones" >10.- Integraciones</a></dd>
+                                        <dd><a class="sub_tema" href="todo_sobre_dialog.php#Prácticas_recomendadas" >11.- Prácticas recomendadas</a></dd>
                             </ol>
                         </div>
                         <div class="contenedor_imagen" >

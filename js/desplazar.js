@@ -7,11 +7,12 @@ var intro= document.getElementById("introduccion_click");
 var sub_menu_intro = document.getElementById("sub_menu_intro");
 var estado = document.getElementById("Estado_click")
 var sub_menu_intro2 = document.getElementById("sub_menu_intro_2");
-
-
+var fundamentos = document.getElementById("fundamentos_tema");
+var sub_menu_intro_fund= document.getElementById("sub_menu_intro_fund");
+var todo_sobre_dialog= document.getElementById("todo_sobre_dialog");
+var sub_menu_dialog = document.getElementById("sub_menu_dialog");
 function despliega(tema){
-
-    if(tema=='introduccion'){
+    if(tema=='fundamentos'){
         let elementStyle = window.getComputedStyle(sub_menu_intro);
         let elementvisibiliti = elementStyle.getPropertyValue('display');
         console.log(elementvisibiliti)
@@ -20,6 +21,31 @@ function despliega(tema){
         }
         else{
             sub_menu_intro.style.display='none';
+        }
+
+    }
+    if(tema=='todo_sobre_dialog'){
+        let elementStyle = window.getComputedStyle(sub_menu_dialog);
+        let elementvisibiliti = elementStyle.getPropertyValue('display');
+        console.log(elementvisibiliti)
+        if (elementvisibiliti =='none'){
+            sub_menu_dialog.style.display='block';
+        }
+        else{
+            sub_menu_dialog.style.display='none';
+        }
+
+    }
+
+    if(tema=='introduccion'){
+        let elementStyle = window.getComputedStyle(sub_menu_intro_fund);
+        let elementvisibiliti = elementStyle.getPropertyValue('display');
+        console.log(elementvisibiliti)
+        if (elementvisibiliti =='none'){
+            sub_menu_intro_fund.style.display='block';
+        }
+        else{
+            sub_menu_intro_fund.style.display='none';
         }
     }
     if(tema=='estado'){
